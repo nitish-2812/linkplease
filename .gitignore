@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+linkplease.db
+linkplease.db-shm
+linkplease.db-wal
+.venv/
+venv/

@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: linkplease
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PSEUDOGRAM_API_KEY
+        sync: false  # Must be set manually in Render dashboard
+      - key: PYTHON_VERSION
+        value: "3.11.9"
