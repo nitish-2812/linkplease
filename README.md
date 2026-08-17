@@ -2,6 +2,11 @@
 
 Automated Instagram DM engine for the Pseudogram mock API. Built as a reliability engineering challenge — designed to handle duplicates, rate limits, transient failures, and out-of-order events gracefully.
 
+## Loom Video Walkthrough
+
+Watch a 3-minute explanation of the architecture, key design trade-offs, and future improvements:
+[Loom Video Demonstration](https://www.loom.com/share/db80f37b747e46fead36c8451e1ccddc)
+
 ## Setup
 
 ```bash
